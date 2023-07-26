@@ -1,0 +1,29 @@
+{
+  "name": "typedoc-plugin-export-functions",
+  "version": "1.0.0",
+  "description": "Include non-exported types in TypeDoc documentation",
+  "main": "dist/index.js",
+  "author": "woo-yu",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.11.10",
+    "prettier": "^2.8.7",
+    "typedoc": "^0.24.8",
+    "typescript": "^5.0.4",
+    "vitest": "^0.30.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/woo-yu/typedoc-plugin-export-functions.git"
+  },
+  "keywords": [
+    "typedoc-plugin"
+  ],
+  "peerDependencies": {
+    "typedoc": "0.24.x"
+  },
+  "scripts": {
+    "test": "vitest run test/packages.test.ts",
+    "build": "tsc --outDir dist"
+  }
+}
