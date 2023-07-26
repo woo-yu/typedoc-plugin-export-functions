@@ -1,5 +1,5 @@
 /**
- * 테스트
+ * @category tt
  */
 export function test() {
   return {
