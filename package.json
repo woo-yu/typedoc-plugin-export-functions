@@ -24,6 +24,6 @@
   },
   "scripts": {
     "test": "vitest run test/packages.test.ts",
-    "build": "tsc --outDir dist"
+    "build": "tsc"
   }
 }

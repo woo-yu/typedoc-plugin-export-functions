@@ -3,3 +3,5 @@ dist
 docs
 test/output
 !scripts/*.js
+*.js
+*.js.map
